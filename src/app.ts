@@ -68,7 +68,7 @@ class App {
 		if (user) {
 			if (this.hash(`${user.salt}${password}`) === user.hashed) {
 				const token = await this.generateToken();
-				await this.redis.set(`token-${token}`, user.email);
+				await this.redis.set(`token-${token}`, email);
 				return {
 					token: token
 				};
