@@ -15,6 +15,7 @@
     "typings": "^1.4.0"
   },
   "scripts": {
+    "postinstall": "typings i",
     "serve": "nodemon .",
     "start": "concurrently -k --raw \"npm run serve\" \"npm run watch\"",
     "watch": "tsc -w"
