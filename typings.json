@@ -5,6 +5,7 @@
     "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160923124352",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "node": "registry:dt/node#6.0.0+20160923124626",
+    "redis": "registry:dt/redis#0.12.1+20160818110030",
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }
 }
